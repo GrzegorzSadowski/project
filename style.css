@@ -143,13 +143,12 @@ h6 {
 h1 {
   font-size: 175px;
   font-weight: 700;
+  margin-bottom: -100px;
 }
 
 h2 {
   font-weight: 400;
   font-size: 80px;
-  position: relative;
-  bottom: 100px;
 }
 
 .zolty {
@@ -282,16 +281,13 @@ a {
   h1 {
     font-size: 40px;
     font-weight: 700;
-    position: relative;
-    top: 20px;
+    margin-bottom: -20px;
   }
 
   h2 {
     font-weight: 400;
     font-size: 18px;
-    position: relative;
-    top: 2px;
-    right: 3.5px;
+    margin-right: 7px;
   }
 
   h5 {
@@ -303,4 +299,3 @@ a {
     display: none;
   }
 }
-
