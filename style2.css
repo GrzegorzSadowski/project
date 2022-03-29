@@ -350,7 +350,16 @@ i {
   .zolty {
     display: none;
   }
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: -20px;
+  }
 
+  h2 {
+    font-weight: 400;
+    font-size: 18px;
+  }
   h1 {
     font-size: 40px;
     font-weight: 700;
