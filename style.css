@@ -200,7 +200,9 @@ a {
     display: grid;
     align-self: end;
     justify-self: start;
+    justify-items: start;
   }
+
 
   .line {
     display: none;
