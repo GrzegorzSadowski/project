@@ -54,6 +54,10 @@ h6 {
   height: 300px;
 }
 
+.center {
+  display: none;
+}
+
 .strip {
   background-color: #142533;
   grid-column: 2/4;
@@ -61,8 +65,8 @@ h6 {
 }
 
 .title1 {
-  background: #e5e5e5;
   display: grid;
+  background-color: hsl(0, 0%, 77%, 75%);
   align-content: center;
   justify-items: center;
   opacity: 0.75;
@@ -171,7 +175,7 @@ a {
   grid-column: 2/3;
   grid-row: 5/6;
   display: grid;
-  background-color: rgba(229, 229, 229, 0.75);
+  background-color: hsl(0, 0%, 77%, 75%);
 }
 
 .image_aside {
@@ -181,7 +185,8 @@ a {
 }
 
 #kask {
-  width: 300px;
+  height: 300px;
+  width: 100%;
   padding: 10px;
 }
 
@@ -191,6 +196,11 @@ h1 {
 }
 h2 {
   font-weight: 400;
+  font-size: 60px;
+}
+
+h3 {
+  font-weight: 700;
   font-size: 60px;
 }
 
@@ -218,3 +228,167 @@ i {
   justify-self: end;
   padding-right: 5px;
 }
+
+@media (max-width: 699px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px 90px 15px 200px 100px auto 300px 90px;
+  }
+
+  .logo {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    background-color: #142533;
+    color: white;
+  }
+
+  #logo {
+    height: 200px;
+  }
+
+  .center {
+    display: grid;
+    align-self: end;
+    justify-self: start;
+  }
+
+  .menu {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #142533;
+    color: white;
+    font-weight: 400;
+    border-top: 5px solid #f0ce0f;
+  }
+
+  .bottom {
+    display: grid;
+    align-self: center;
+    justify-self: center;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  #kreski {
+    display: none;
+  }
+
+  #kreskizolte {
+    display: none;
+  }
+
+  .line {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    z-index: 15;
+  }
+
+  #triangle {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #f0ce0f;
+    z-index: 15;
+  }
+
+  #rectangle {
+    width: auto;
+    height: 5px;
+    background-color: #f0ce0f;
+  }
+
+  .image_main {
+    grid-column: 1/2;
+    grid-row: 4/6;
+    background: url(cyrkiel.jpg);
+    background-size: cover;
+  }
+
+  .title1 {
+    background: #c4c4c4;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    opacity: 0.75;
+    grid-column: 1/2;
+    grid-row: 5/6;
+    z-index: 10;
+    font-size: 20px;
+  }
+
+  .title2 {
+    display: none;
+  }
+  
+  .textaside {
+    display: none;
+  }
+
+  .textmain {
+    grid-column: 1/2;
+    grid-row: 6/7;
+    background-color: #c4c4c4bf;
+  }
+
+  .image_aside {
+    grid-column: 1/2;
+    grid-row: 7/8;
+    background-color: #c4c4c4bf;
+  }
+
+  .kontakt {
+    grid-column: 1/2;
+    grid-row: 8/9;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    display: grid;
+    border-top: 5px solid #f0ce0f;
+    background-color: #142533;
+    color: white;
+    display: grid;
+  }
+
+  .zolty {
+    display: none;
+  }
+
+  h1 {
+    font-size: 46px;
+    font-weight: 700;
+    position: relative;
+    top: 32px;
+  }
+
+  h2 {
+    font-weight: 400;
+    font-size: 22px;
+    position: relative;
+    top: 8px;
+  }
+
+  h3 {
+    font-weight: 700 bold;
+    font-size: 26px;
+  }
+
+  h5 {
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .image_aside {
+    background-image: url(kask2.jpg);
+    background-size: cover;
+  }
+}
+
