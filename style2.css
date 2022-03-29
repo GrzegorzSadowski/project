@@ -350,7 +350,8 @@ i {
   .zolty {
     display: none;
   }
-h1 {
+
+  h1 {
     font-size: 40px;
     font-weight: 700;
     margin-bottom: -20px;
@@ -359,19 +360,6 @@ h1 {
   h2 {
     font-weight: 400;
     font-size: 18px;
-  }
-  h1 {
-    font-size: 40px;
-    font-weight: 700;
-    position: relative;
-    top: 20px;
-  }
-
-  h2 {
-    font-weight: 400;
-    font-size: 18px;
-    position: relative;
-    top: 2px;
   }
 
   h3 {
