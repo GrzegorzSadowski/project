@@ -280,18 +280,18 @@ a {
     display: grid;
   }
   h1 {
-    font-size: 46px;
+    font-size: 40px;
     font-weight: 700;
     position: relative;
-    top: 32px;
-    right: 1.5px;
+    top: 20px;
   }
 
   h2 {
     font-weight: 400;
-    font-size: 22px;
+    font-size: 18px;
     position: relative;
-    top: 8px;
+    top: 2px;
+    right: 3.5px;
   }
 
   h5 {
