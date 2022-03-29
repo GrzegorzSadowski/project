@@ -317,3 +317,10 @@ a {
     font-size: 14px;
     font-weight: 700;
   }
+  
+  a {
+    display: grid;
+    align-self: end;
+    justify-self: start;
+  }
+}
