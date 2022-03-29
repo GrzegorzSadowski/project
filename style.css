@@ -278,16 +278,15 @@ a {
 
     display: grid;
   }
-  h1 {
+ h1 {
     font-size: 40px;
     font-weight: 700;
-    margin-bottom: -20px;
+    margin-bottom: auto;
   }
 
   h2 {
     font-weight: 400;
     font-size: 18px;
-    margin-right: 7px;
   }
 
   h5 {
